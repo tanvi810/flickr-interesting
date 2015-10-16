@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		616C38611BD0152700C1A12C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 616C38601BD0152700C1A12C /* main.m */; };
 		616C38641BD0152700C1A12C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 616C38631BD0152700C1A12C /* AppDelegate.m */; };
-		616C38671BD0152700C1A12C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 616C38661BD0152700C1A12C /* ViewController.m */; };
-		616C386A1BD0152700C1A12C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 616C38681BD0152700C1A12C /* Main.storyboard */; };
 		616C386C1BD0152700C1A12C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 616C386B1BD0152700C1A12C /* Assets.xcassets */; };
-		616C386F1BD0152700C1A12C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 616C386D1BD0152700C1A12C /* LaunchScreen.storyboard */; };
 		616C387A1BD0152700C1A12C /* ImageBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 616C38791BD0152700C1A12C /* ImageBrowserTests.m */; };
 		616C38851BD0152700C1A12C /* ImageBrowserUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 616C38841BD0152700C1A12C /* ImageBrowserUITests.m */; };
+		616C389A1BD0164300C1A12C /* GalleryImageCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 616C38941BD0164300C1A12C /* GalleryImageCellView.m */; settings = {ASSET_TAGS = (); }; };
+		616C389B1BD0164300C1A12C /* GalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 616C38961BD0164300C1A12C /* GalleryViewController.m */; settings = {ASSET_TAGS = (); }; };
+		616C389C1BD0164300C1A12C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 616C38981BD0164300C1A12C /* LaunchScreen.storyboard */; settings = {ASSET_TAGS = (); }; };
+		616C389D1BD0164300C1A12C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 616C38991BD0164300C1A12C /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+		6190798E1BD02B5B00863234 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6190798D1BD02B5B00863234 /* ImageViewController.m */; settings = {ASSET_TAGS = (); }; };
+		61EDDF3B1BD0A8BA001954AB /* UtilsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 61EDDF3A1BD0A8BA001954AB /* UtilsManager.m */; settings = {ASSET_TAGS = (); }; };
+		782C5B42C15CE664A6527B79 /* libPods-ImageBrowser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00397E9C94083A4E015372DD /* libPods-ImageBrowser.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,15 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00397E9C94083A4E015372DD /* libPods-ImageBrowser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ImageBrowser.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C3BF5A47CFECCE11E90F4AE /* Pods-ImageBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageBrowser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImageBrowser/Pods-ImageBrowser.debug.xcconfig"; sourceTree = "<group>"; };
 		616C385C1BD0152700C1A12C /* ImageBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		616C38601BD0152700C1A12C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		616C38621BD0152700C1A12C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		616C38631BD0152700C1A12C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		616C38651BD0152700C1A12C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		616C38661BD0152700C1A12C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		616C38691BD0152700C1A12C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		616C386B1BD0152700C1A12C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		616C386E1BD0152700C1A12C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		616C38701BD0152700C1A12C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		616C38751BD0152700C1A12C /* ImageBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		616C38791BD0152700C1A12C /* ImageBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageBrowserTests.m; sourceTree = "<group>"; };
@@ -51,6 +53,17 @@
 		616C38801BD0152700C1A12C /* ImageBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		616C38841BD0152700C1A12C /* ImageBrowserUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageBrowserUITests.m; sourceTree = "<group>"; };
 		616C38861BD0152700C1A12C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		616C38931BD0164300C1A12C /* GalleryImageCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GalleryImageCellView.h; sourceTree = "<group>"; };
+		616C38941BD0164300C1A12C /* GalleryImageCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GalleryImageCellView.m; sourceTree = "<group>"; };
+		616C38951BD0164300C1A12C /* GalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GalleryViewController.h; sourceTree = "<group>"; };
+		616C38961BD0164300C1A12C /* GalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GalleryViewController.m; sourceTree = "<group>"; };
+		616C38981BD0164300C1A12C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		616C38991BD0164300C1A12C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		6190798C1BD02B3600863234 /* ImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		6190798D1BD02B5B00863234 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		61EDDF391BD0A8BA001954AB /* UtilsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UtilsManager.h; path = Managers/UtilsManager.h; sourceTree = "<group>"; };
+		61EDDF3A1BD0A8BA001954AB /* UtilsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UtilsManager.m; path = Managers/UtilsManager.m; sourceTree = "<group>"; };
+		815E399E08CA71861BD5A701 /* Pods-ImageBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageBrowser.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImageBrowser/Pods-ImageBrowser.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				782C5B42C15CE664A6527B79 /* libPods-ImageBrowser.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +92,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		220AD4B757EAC6A7596DA2FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C3BF5A47CFECCE11E90F4AE /* Pods-ImageBrowser.debug.xcconfig */,
+				815E399E08CA71861BD5A701 /* Pods-ImageBrowser.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		616C38531BD0152700C1A12C = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +108,8 @@
 				616C38781BD0152700C1A12C /* ImageBrowserTests */,
 				616C38831BD0152700C1A12C /* ImageBrowserUITests */,
 				616C385D1BD0152700C1A12C /* Products */,
+				220AD4B757EAC6A7596DA2FE /* Pods */,
+				EF992274E0DD372A1084A4B9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,13 +126,12 @@
 		616C385E1BD0152700C1A12C /* ImageBrowser */ = {
 			isa = PBXGroup;
 			children = (
+				61EDDF341BD0A7AF001954AB /* Managers */,
+				616C38921BD0164300C1A12C /* Controllers */,
+				616C38971BD0164300C1A12C /* Views */,
 				616C38621BD0152700C1A12C /* AppDelegate.h */,
 				616C38631BD0152700C1A12C /* AppDelegate.m */,
-				616C38651BD0152700C1A12C /* ViewController.h */,
-				616C38661BD0152700C1A12C /* ViewController.m */,
-				616C38681BD0152700C1A12C /* Main.storyboard */,
 				616C386B1BD0152700C1A12C /* Assets.xcassets */,
-				616C386D1BD0152700C1A12C /* LaunchScreen.storyboard */,
 				616C38701BD0152700C1A12C /* Info.plist */,
 				616C385F1BD0152700C1A12C /* Supporting Files */,
 			);
@@ -140,6 +164,45 @@
 			path = ImageBrowserUITests;
 			sourceTree = "<group>";
 		};
+		616C38921BD0164300C1A12C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				616C38931BD0164300C1A12C /* GalleryImageCellView.h */,
+				616C38941BD0164300C1A12C /* GalleryImageCellView.m */,
+				616C38951BD0164300C1A12C /* GalleryViewController.h */,
+				616C38961BD0164300C1A12C /* GalleryViewController.m */,
+				6190798C1BD02B3600863234 /* ImageViewController.h */,
+				6190798D1BD02B5B00863234 /* ImageViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		616C38971BD0164300C1A12C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				616C38981BD0164300C1A12C /* LaunchScreen.storyboard */,
+				616C38991BD0164300C1A12C /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		61EDDF341BD0A7AF001954AB /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				61EDDF391BD0A8BA001954AB /* UtilsManager.h */,
+				61EDDF3A1BD0A8BA001954AB /* UtilsManager.m */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		EF992274E0DD372A1084A4B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00397E9C94083A4E015372DD /* libPods-ImageBrowser.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +210,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 616C38891BD0152700C1A12C /* Build configuration list for PBXNativeTarget "ImageBrowser" */;
 			buildPhases = (
+				876F855C210E1B1AB558D33E /* Check Pods Manifest.lock */,
 				616C38581BD0152700C1A12C /* Sources */,
 				616C38591BD0152700C1A12C /* Frameworks */,
 				616C385A1BD0152700C1A12C /* Resources */,
+				4B884A47F12D493D56D552AE /* Embed Pods Frameworks */,
+				DF558A18BB0A4E5F74E362A3 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,9 +309,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				616C386F1BD0152700C1A12C /* LaunchScreen.storyboard in Resources */,
+				616C389D1BD0164300C1A12C /* Main.storyboard in Resources */,
 				616C386C1BD0152700C1A12C /* Assets.xcassets in Resources */,
-				616C386A1BD0152700C1A12C /* Main.storyboard in Resources */,
+				616C389C1BD0164300C1A12C /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,14 +331,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4B884A47F12D493D56D552AE /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ImageBrowser/Pods-ImageBrowser-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		876F855C210E1B1AB558D33E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DF558A18BB0A4E5F74E362A3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ImageBrowser/Pods-ImageBrowser-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		616C38581BD0152700C1A12C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				616C38671BD0152700C1A12C /* ViewController.m in Sources */,
+				6190798E1BD02B5B00863234 /* ImageViewController.m in Sources */,
 				616C38641BD0152700C1A12C /* AppDelegate.m in Sources */,
+				616C389B1BD0164300C1A12C /* GalleryViewController.m in Sources */,
+				61EDDF3B1BD0A8BA001954AB /* UtilsManager.m in Sources */,
 				616C38611BD0152700C1A12C /* main.m in Sources */,
+				616C389A1BD0164300C1A12C /* GalleryImageCellView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,25 +423,6 @@
 			targetProxy = 616C38811BD0152700C1A12C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		616C38681BD0152700C1A12C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				616C38691BD0152700C1A12C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		616C386D1BD0152700C1A12C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				616C386E1BD0152700C1A12C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		616C38871BD0152700C1A12C /* Debug */ = {
@@ -411,6 +509,7 @@
 		};
 		616C388A1BD0152700C1A12C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C3BF5A47CFECCE11E90F4AE /* Pods-ImageBrowser.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ImageBrowser/Info.plist;
@@ -422,6 +521,7 @@
 		};
 		616C388B1BD0152700C1A12C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 815E399E08CA71861BD5A701 /* Pods-ImageBrowser.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ImageBrowser/Info.plist;
@@ -498,6 +598,7 @@
 				616C388B1BD0152700C1A12C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		616C388C1BD0152700C1A12C /* Build configuration list for PBXNativeTarget "ImageBrowserTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +607,7 @@
 				616C388E1BD0152700C1A12C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		616C388F1BD0152700C1A12C /* Build configuration list for PBXNativeTarget "ImageBrowserUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +616,7 @@
 				616C38911BD0152700C1A12C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
